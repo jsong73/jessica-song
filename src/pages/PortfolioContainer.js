@@ -17,12 +17,17 @@ function PortfolioContainer () {
                 </ul>
             </nav>
 
-            <h1 id="full-name"className="text-center justify-center items-center"> Jessica    
+            <h1 id="full-name" className="text-center justify-center items-center"> Jessica    
             Song.    
             </h1>
 
-            <p id="bio" className="text-center justify-center items-center"> A full stack web developer 
-            empowered by building code and delivering solutions.
+            <h1 id="title" className="text-center justify-center items-center">Front-end developer 
+            / Back-end developer 
+            </h1>
+
+            <p id="bio" className="mt-8 text-center justify-center items-center"> A full stack 
+            web developer empowered by building highly granular code and delivering hyperscaling 
+            solutions.
             </p>
 
 
