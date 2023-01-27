@@ -2,18 +2,22 @@ html{
     scroll-behavior: smooth;
 }
 
+#home{
+
+}
+
 #full-name{
     font-family: 'Almarai', sans-serif;
-    font-size: 100px;
     font-weight: 700;
+ 
 }
 
 #title{
     font-family: 'Almarai', sans-serif;
-    font-size: 30px;
+    font-weight: 700;
+
 }
 
 #bio{
     font-family: 'Almarai', sans-serif;
-    font-size: 20px;
 }
