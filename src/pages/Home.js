@@ -2,8 +2,9 @@ import React from "react";
 
 function Home () {
     return(
-        <div>
-            Home
+        <div id="home">
+            Hi, my name is Jessica Song. 
+
         </div>
     )}
     
