@@ -12,16 +12,19 @@ function PortfolioContainer () {
             <nav className="flex  items-center justify-center flex-wrap p-6">
                 <div className="flex items-center flex-shrink-0 mr-6">
                         <ul className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-                        <div className="text-md lg:flex-grow ">
-                            <li className="mr-5 inline-block hover:text-blue-500 hover:italic"> 01. <a href="#home">Home</a></li>
-                            <li className="mr-5 inline-block hover:text-blue-500 hover:italic"> 02. <a href="#about">About</a></li>
-                            <li className="mr-5 inline-block hover:text-blue-500 hover:italic"> 03. <a href="#projects">Projects</a></li>
-                            <li className="mr-5 inline-block hover:text-blue-500 hover:italic"> 04. <a href="#contact">Contact</a></li>
+                            <div className="text-md lg:flex-grow ">
+                                <li className="mr-5 inline-block hover:text-blue-500 hover:italic"> 01. <a href="#home">Home</a></li>
+                                <li className="mr-5 inline-block hover:text-blue-500 hover:italic"> 02. <a href="#about">About</a></li>
+                                <li className="mr-5 inline-block hover:text-blue-500 hover:italic"> 03. <a href="#projects">Projects</a></li>
+                                <li className="mr-5 inline-block hover:text-blue-500 hover:italic"> 04. <a href="#contact">Contact</a></li>
                             </div>
                         </ul>
-               
                 </div>
             </nav>
+
+            {/* grey border */}
+            <div className="w-full border-b border-gray-300"></div>
+
 
             <h1 id="full-name" className="max-w-screen-lg mx-auto mt-8
             text-8xl text-center justify-center items-center"> Jessica Song.
@@ -50,9 +53,10 @@ function PortfolioContainer () {
 
 
             <div className="hero container max-w-screen-lg mx-auto pb-10 flex justify-center">
-            <img src={Woman} width="500px" alt="woman- 
+            <img src={Woman} width="520px" alt="woman- 
             computer"/>
             </div>
+
 
         </div>
 
