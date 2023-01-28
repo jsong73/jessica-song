@@ -9,7 +9,7 @@ function PortfolioContainer () {
             id="home" 
             className="snap-start w-screen h-screen"> 
 
-            <nav className="flex  items-center justify-center flex-wrap p-6">
+            <nav className="flex items-center justify-center flex-wrap p-6">
                 <div className="flex items-center flex-shrink-0 mr-6">
                         <ul className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
                             <div className="text-md lg:flex-grow ">
@@ -26,11 +26,11 @@ function PortfolioContainer () {
             <div className="w-full border-b border-gray-300"></div>
 
 
-            <h1 id="full-name" className="max-w-screen-lg mx-auto mt-8
+            <h1 id="full-name" className="max-w-screen-lg mx-auto mt-8 flex
             text-8xl text-center justify-center items-center"> Jessica Song.
             </h1>
 
-            <h1 id="title" className="text-3xl mt-8 text-center justify-center items-center"> — front-end & back-end developer —
+            <h1 id="title" className="flex text-3xl mt-8 text-center justify-center items-center"> — front-end & back-end developer —
             </h1>
 
             
@@ -39,7 +39,7 @@ function PortfolioContainer () {
             <b className="italic"> delivering </b> hyperscaling solutions.
             </p>
 
-            <div className=" text-center justify-center items-center mt-10 mb-2">
+            <div className="flex text-center justify-center items-center mt-8 ">
                 <a 
                     className="text-blue-500 hover:text-white border border-blue-500 hover:bg-blue-500 
                     focus:ring-blue-300 font-medium rounded-lg text-sm px-10 py-2.5 text-center dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500"
