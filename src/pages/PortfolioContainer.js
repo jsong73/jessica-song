@@ -26,7 +26,7 @@ function PortfolioContainer () {
             <div className="w-full border-b border-gray-300"></div>
 
 
-            <h1 id="full-name" className="max-w-screen-lg mx-auto mt-8 flex
+            <h1 id="full-name" className="max-w-screen-lg mx-auto mt-10  flex
             text-8xl text-center justify-center items-center"> Jessica Song.
             </h1>
 
@@ -42,20 +42,22 @@ function PortfolioContainer () {
             <div className="flex text-center justify-center items-center mt-8 ">
                 <a 
                     className="text-blue-500 hover:text-white border border-blue-500 hover:bg-blue-500 
-                    focus:ring-blue-300 font-medium rounded-lg text-sm px-10 py-2.5 text-center dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500"
+                    focus:ring-blue-300 font-medium rounded-lg text-sm px-10 py-2.5 text-center dark:border-blue-500 dark:text-blue-500 
+                    dark:hover:text-white dark:hover:bg-blue-500"
                     href="https://docs.google.com/document/d/1KtbFgZj_dZ6uu4P9ycTLqT_DTbnaB5PlaWuuW88YAuc/edit" 
                     aria-label="email" 
                     target="_blank" 
                     rel="noopener noreferrer"> View my resume
                 </a>
              </div>
-      
+       
 
-
+{/* 
             <div className="hero container max-w-screen-lg mx-auto pb-10 flex justify-center">
             <img src={Woman} width="520px" alt="woman- 
             computer"/>
-            </div>
+            </div> */}
+
 
 
         </div>

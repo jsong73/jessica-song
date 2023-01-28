@@ -4,11 +4,13 @@ html{
 
 #home{
     font-family: 'Almarai', sans-serif;
+    color: rgba(18, 19, 15, 0.856);
 }
 
 
 #full-name{
-    font-family: 'Almarai', sans-serif;
+    font-family: 'Epilogue', sans-serif;
+border-radius: 800;
     font-weight: 700;
 }
 
