@@ -2,10 +2,14 @@ html{
     scroll-behavior: smooth;
 }
 
+#home{
+    font-family: 'Almarai', sans-serif;
+}
+
+
 #full-name{
     font-family: 'Almarai', sans-serif;
     font-weight: 700;
-
 }
 
 #title{
