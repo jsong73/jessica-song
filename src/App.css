@@ -10,15 +10,9 @@ html{
 
 #full-name{
     font-family: 'Epilogue', sans-serif;
-border-radius: 800;
     font-weight: 700;
 }
 
-#title{
-    font-family: 'Almarai', sans-serif;
-    font-weight: 700;
-
-}
 
 #bio{
     font-family: 'Almarai', sans-serif;
