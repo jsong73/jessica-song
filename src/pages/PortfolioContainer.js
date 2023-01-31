@@ -1,5 +1,6 @@
 import React from "react";
 import Woman from "../images/coding.png"
+import Bio from "../images/bio.png"
 
 function PortfolioContainer () {
     return(
@@ -33,7 +34,7 @@ function PortfolioContainer () {
                     <div className="flex justify-center items-center flex-wrap">
                         <div className="md:w-8/12 lg:w-4/12 lg:ml-20">
                     {/* Home image  */}
-                    <img className="h-auto max-w-full py-1" src={Woman} alt="woman-computer"/>
+                    <img className="h-auto max-w-full py-1" src={Woman} alt="woman-computer" draggable="false" />
          
                         </div>
 
@@ -44,7 +45,7 @@ function PortfolioContainer () {
                 {/* grey border  */}
                 <div className="h-5 border-b-4 border-grey"></div>
             
-                <p id="bio" className="md:text-xl mt-5 text-center justify-center items-center"> A full stack web developer empowered by <b className="italic text-blue-500"> building </b> highly granular code   
+                <p id="bio" className="sm:text-sm md:text-xl mt-5 text-center justify-center items-center"> A full stack web developer empowered by <b className="italic text-blue-500"> building </b> highly granular code   
                 and <b className="italic text-blue-500"> delivering </b> hyperscaling solutions.
                 </p>
 
@@ -70,27 +71,25 @@ function PortfolioContainer () {
 
         <div 
             id="about" 
-            className="snap-start w-screen h-screen "> 
+            className="snap-start w-screen h-screen"> 
   
-        <h1 id="about-me" className="flex ml-12 mt-5 md:text-5xl sm: text-4xl h-5 border-b-4 border-grey"> 01. ABOUT ME  </h1>
+        <h1 id="about-me" className="flex ml-12 mt-5 md:text-5xl sm:text-4xl h-5 border-b-4 border-grey "> 01. ABOUT ME  </h1>
    
         
-        <p id="hello" className="flex mt-12 ml-12 text-blue-500 text-8xl italic"> Hello! </p>
+        <p id="hello" className=" mt-12 ml-12 text-blue-500 text-8xl italic h-32 flex flex-col align-items"> Hello! </p>
 
-        <p className="flex text-center items-center justify-center"> My name is Jessica and i'm a self-taught developer residing in Atlana, Georgia. I enjoy creating full stack web applications with immersive 
-            digital experiences using Javascript(ES6) and other supporting libraries and languages. My main focus for future projects is to expand my 
-            experience with familiar technologies or even new ones. Below are some skills and technologies i've been working with!
+        {/* about me bio */}
+        <p id="about-bio" className="flex text-center justify-center items-center"> My name is Jessica and i'm a self-taught developer residing in 
+        Atlanta, Georgia. I enjoy creating full stack web applications with immersive digital experiences using Javascript(ES6) and other supporting 
+        libraries and languages.
         </p>
+        <p id="intro"className="flex text-center justify-center items-center"> My main focus for future projects is to expand my experience with 
+        familiar technologies and new ones. Below are some of my aquired skills and the technologies i've been loving/working with!</p>
 
-        {/* <div>
-        ➤
+        <div className="md:w-8/12 lg:w-4/12 lg:ml-20">
+        <img className="h-auto max-w-full py-1  text-center justify-center items-center" src={Bio} alt="skills-tech" width="950"/>
+
         </div>
-         */}
-        
-        
-        
-        
-        
         
         </div>
 
@@ -118,10 +117,23 @@ function PortfolioContainer () {
 
 
 
+
+
+
+
+
+
+{/* CONTACT */}
         <div 
             id="contact" 
-            className="bg-teal-200 snap-start w-screen h-screen flex items-    
-            center justify-center text-8xl"> Contact 
+            className="snap-start w-screen h-screen flex items-center justify-center"> 
+         <h1 id="projects" className="flex ml-12 mt-5 md:text-5xl sm: text-4xl"> 04. CONTACT </h1> 
+         <div className="ml-3 border-2 border-gray"></div>
+
+
+
+
+
         </div>
         
         
