@@ -2,6 +2,7 @@ import "../../src/App.css"
 import React from "react";
 import Woman from "../images/coding.png"
 import {SlSocialLinkedin , SlSocialGithub, SlSocialFacebook} from "react-icons/sl"
+import {TbWorld} from "react-icons/tb"
 
 // import Bio from "../images/bio.png"
 
@@ -114,7 +115,45 @@ function PortfolioContainer () {
            <h1 id="projects" className="flex ml-12 mt-5 md:text-5xl sm:text-4xl h-5 border-b-4 border-grey "> 03. PROJECTS  </h1>
    
 
+            <div className="flex justify-center items-center mt-12 py-12">
+
+                {/* JOURNEZ */}
+                <div 
+                    className="block max-w-sm p-6 bg-white border border-white-200 rounded-lg shadow hover:bg-gray-100 dark:bg-white-800 
+                    dark:border-gray-700 dark:hover:bg-gray-700">
+        
+                <h5 id="journez" className="mb-2 text-center text-2xl font-bold tracking-tight text-gray-900 dark:text-gray"> journEZ </h5>
+                    <p id="journez-bio" className="text-center font-normal text-gray-700 dark:text-gray-400">journEZ is a a travel website that 
+                    allows users to easily create trips and organize their trip itineraries and costs all from one platform. This was created 
+                    via the MERN + graphQL stack.  </p>
+
+                    <a 
+                        className="float-right text-3xl mt-3"
+                        href="https://github.com/jsong73/journez-travel" 
+                        aria-label="journez-repo" 
+                        target="_blank" 
+                        rel="noopener noreferrer"><SlSocialGithub /> 
+                    </a>
+
+                    <a 
+                        className="float-left text-3xl mt-3"
+                        href="https://journez-travel.herokuapp.com/" 
+                        aria-label="journez-site" 
+                        target="_blank" 
+                        rel="noopener noreferrer"><TbWorld /> 
+                    </a>
+
+                </div>
+    {/* SOCIAL NETWORK */}
+
+
+
+
+
+
         </div>
+    </div>
+
 
 
 
@@ -160,9 +199,6 @@ function PortfolioContainer () {
                 </div>
 
 
-         
-
-
         {/* linkedin icon */}
         <div id="linkedin-icon" className="text-5xl flex items-center justify-center mb-12 text-gray-500 hover:text-gray-900">
             <a 
@@ -193,23 +229,10 @@ function PortfolioContainer () {
             </a>
         </div>
 
-
-
-
-
-
         </div>
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        </div>
+ 
+</div>
     )}
     
 export default PortfolioContainer;
