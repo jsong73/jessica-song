@@ -76,7 +76,8 @@ function PortfolioContainer () {
         <h1 id="about-me" className="flex ml-12 mt-5 md:text-5xl sm:text-4xl h-5 border-b-4 border-grey "> 01. ABOUT ME  </h1>
    
         
-        <p id="hello" className=" mt-12 ml-12 text-blue-500 text-8xl italic h-32 flex flex-col align-items"> Hello! </p>
+        <p id="hello" className="flex mt-12 ml-12 text-blue-500 text-8xl italic h-32 flex-col align-items"> Hello! </p>
+
 
         {/* about me bio */}
         <p id="about-bio" className="flex text-center justify-center items-center"> My name is Jessica and i'm a self-taught developer residing in 
@@ -86,10 +87,12 @@ function PortfolioContainer () {
         <p id="intro"className="flex text-center justify-center items-center"> My main focus for future projects is to expand my experience with 
         familiar technologies and new ones. Below are some of my aquired skills and the technologies i've been loving/working with!</p>
 
-        <div className="md:w-8/12 lg:w-4/12 lg:ml-20">
-        <img className="h-auto max-w-full py-1  text-center justify-center items-center" src={Bio} alt="skills-tech" width="950"/>
-
+        <div className="flex text-center justify-center items-center">
+            <div className="md: px-9">
+                <img className="  " src={Bio} alt="skills-tech" width="950" id="skills"/>
+            </div>
         </div>
+    
         
         </div>
 
