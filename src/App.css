@@ -13,6 +13,9 @@ html{
     font-weight: 700;
 }
 
+#resume-btn{
+    font-family: 'Fira Code', monospace;
+}
 
 #bio{
     font-family: 'Almarai', sans-serif;
@@ -38,6 +41,25 @@ html{
 
 
 #projects{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+}
+
+#contact{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+}
+
+#contact-header{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+}
+
+#email-btn{
+    font-family: 'Fira Code', monospace;
+}
+
+#or{
     font-family: 'Epilogue', sans-serif;
     font-weight: 700;
 }

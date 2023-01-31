@@ -1,6 +1,7 @@
 import React from "react";
 import Woman from "../images/coding.png"
-import Bio from "../images/bio.png"
+import { FaGithub , FaLinkedinIn, FaEnvelope} from "react-icons/fa"
+// import Bio from "../images/bio.png"
 
 function PortfolioContainer () {
     return(
@@ -56,9 +57,10 @@ function PortfolioContainer () {
                     focus:ring-blue-300 font-medium rounded-lg text-sm px-10 py-2.5 text-center dark:border-blue-500 dark:text-blue-500 
                     dark:hover:text-white dark:hover:bg-blue-500"
                     href="https://docs.google.com/document/d/1KtbFgZj_dZ6uu4P9ycTLqT_DTbnaB5PlaWuuW88YAuc/edit" 
-                    aria-label="email" 
+                    aria-label="resume" 
                     target="_blank" 
-                    rel="noopener noreferrer"> Check out my resume
+                    rel="noopener noreferrer"
+                    id="resume-btn"> Check out my resume
                 </a>
              </div>
     
@@ -71,7 +73,7 @@ function PortfolioContainer () {
 
         <div 
             id="about" 
-            className="snap-start w-screen h-screen"> 
+            className="snap-start h-screen"> 
   
         <h1 id="about-me" className="flex ml-12 mt-5 md:text-5xl sm:text-4xl h-5 border-b-4 border-grey "> 01. ABOUT ME  </h1>
    
@@ -87,11 +89,13 @@ function PortfolioContainer () {
         <p id="intro"className="flex text-center justify-center items-center"> My main focus for future projects is to expand my experience with 
         familiar technologies and new ones. Below are some of my aquired skills and the technologies i've been loving/working with!</p>
 
-        <div className="flex text-center justify-center items-center">
+        
+      
+        {/* <div className="flex text-center justify-center items-center">
             <div className="md: px-9">
                 <img className="  " src={Bio} alt="skills-tech" width="950" id="skills"/>
             </div>
-        </div>
+        </div> */}
     
         
         </div>
@@ -100,16 +104,12 @@ function PortfolioContainer () {
 
 
 
-
-
-
-        <div className="ml-3 border-2 border-gray"></div>
+{/* PROJECTS */}
 
         <div 
             id="projects" 
-            className=" snap-start w-screen h-screen flex"> 
-         <h1 id="projects" className="flex ml-12 mt-5 md:text-5xl sm: text-4xl"> 03. PROJECTS </h1>
-         <div className="ml-3 border-2 border-gray "></div>
+            className="snap-start w-screen h-screen"> 
+           <h1 id="projects" className="flex ml-12 mt-5 md:text-5xl sm:text-4xl h-5 border-b-4 border-grey "> 03. PROJECTS  </h1>
    
 
         </div>
@@ -129,10 +129,38 @@ function PortfolioContainer () {
 {/* CONTACT */}
         <div 
             id="contact" 
-            className="snap-start w-screen h-screen flex items-center justify-center"> 
-         <h1 id="projects" className="flex ml-12 mt-5 md:text-5xl sm: text-4xl"> 04. CONTACT </h1> 
-         <div className="ml-3 border-2 border-gray"></div>
+            className="snap-start w-screen h-screen"> 
+                <h1 id="contact" className="items-center justify-center text-center ml-12 mt-5 md:text-5xl sm:text-4xl h-5 border-b-4 border- 
+                grey "> 03. CONTACT  </h1>
 
+                <h1 id="contact-header" className="py-12 items-center justify-center text-center mt-12 text-blue-500 text-5xl hover:italic"> 
+                Want to get in touch?</h1>
+
+        {/* email button */}
+                <div className="items-center justify-center text-center">
+                    <a 
+                        className="text-blue-500 hover:text-white border border-blue-500 hover:bg-blue-500 
+                        focus:ring-blue-300 font-medium rounded-lg text-sm px-10 py-2.5 text-center dark:border-blue-500 dark:text-blue-500 
+                        dark:hover:text-white dark:hover:bg-blue-500"
+                        href="mailto:jessicajinsong@gmail.com" 
+                        aria-label="email" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        id="email-btn"> Let's connect!
+                    </a>
+                </div>
+
+
+                <div className="items-center justify-center text-center">
+                    <p id="or" className="flex-shrink-0 py-12 md:text-3xl sm: text-2xl text-gray-300">
+                       ...or keep up with me at any of the below links.
+                    </p>
+                </div>
+
+
+         
+            
+    
 
 
 
