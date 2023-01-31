@@ -63,3 +63,23 @@ html{
     font-family: 'Epilogue', sans-serif;
     font-weight: 700;
 }
+
+#linkedin-icon{
+    /* margin-left:50%; */
+    /* font-size: 40px; */
+    /* position:relative; 
+    top:30px; */
+}
+#github-icon{
+    /* margin-left: 40%; */
+    /* font-size: 40px; */
+    /* position:relative; 
+    bottom:5px;  */
+}
+
+#facebook-icon{
+    /* margin-left: 60%;
+    font-size: 40px;
+    position:relative; 
+    bottom:50px;  */
+}

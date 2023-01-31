@@ -1,6 +1,8 @@
+import "../../src/App.css"
 import React from "react";
 import Woman from "../images/coding.png"
-import { FaGithub , FaLinkedinIn, FaEnvelope} from "react-icons/fa"
+import {SlSocialLinkedin , SlSocialGithub, SlSocialFacebook} from "react-icons/sl"
+
 // import Bio from "../images/bio.png"
 
 function PortfolioContainer () {
@@ -153,14 +155,45 @@ function PortfolioContainer () {
 
                 <div className="items-center justify-center text-center">
                     <p id="or" className="flex-shrink-0 py-12 md:text-3xl sm: text-2xl text-gray-300">
-                       ...or keep up with me at any of the below links.
+                       ...or keep up with me at any of my socials.
                     </p>
                 </div>
 
 
          
-            
+
+
+        {/* linkedin icon */}
+        <div id="linkedin-icon" className="text-5xl flex items-center justify-center mb-12 text-gray-500 hover:text-gray-900">
+            <a 
+                href="https://www.linkedin.com/in/jessica-jin-song/" 
+                aria-label="linkedin" 
+                target="_blank" 
+                rel="noopener noreferrer"><SlSocialLinkedin/>
+            </a>
+        </div>
     
+        {/* github icon */}
+        <div id="github-icon" className="text-5xl flex items-center justify-center mb-12 text-gray-500 hover:text-gray-900">
+            <a 
+                href="https://github.com/jsong73" 
+                aria-label="github" 
+                target="_blank" 
+                rel="noopener noreferrer"><SlSocialGithub /> 
+            </a>
+        </div>
+
+        {/* facebook icon */}
+        <div id="facebook-icon" className="text-5xl flex items-center justify-center text-gray-500 hover:text-gray-900">
+            <a 
+                href="https://www.facebook.com/profile.php?id=100008571545306" 
+                aria-label="github" 
+                target="_blank" 
+                rel="noopener noreferrer"><SlSocialFacebook /> 
+            </a>
+        </div>
+
+
 
 
 
