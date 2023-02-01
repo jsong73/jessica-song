@@ -115,17 +115,17 @@ function PortfolioContainer () {
            <h1 id="projects" className="flex ml-12 mt-5 md:text-5xl sm:text-4xl h-5 border-b-4 border-grey "> 03. PROJECTS  </h1>
    
 
-            <div className="flex justify-center items-center mt-12 py-12">
+            <div className="grid md:mb-12 flex-col items-center justify-center mt-5 py-12">
 
                 {/* JOURNEZ */}
                 <div 
-                    className="block max-w-sm p-6 bg-white border border-white-200 rounded-lg shadow hover:bg-gray-100 dark:bg-white-800 
+                    className="block max-w-sm p-6  mb-12 bg-white border border-white-200 rounded-lg shadow hover:bg-gray-100 dark:bg-white-800 
                     dark:border-gray-700 dark:hover:bg-gray-700">
         
-                <h5 id="journez" className="mb-2 text-center text-2xl font-bold tracking-tight text-gray-900 dark:text-gray"> journEZ </h5>
+                <h5 id="journez" className="mb-2 text-center text-2xl font-bold tracking-tight text-blue-500 dark:text-gray"> journEZ </h5>
                     <p id="journez-bio" className="text-center font-normal text-gray-700 dark:text-gray-400">journEZ is a a travel website that 
                     allows users to easily create trips and organize their trip itineraries and costs all from one platform. This was created 
-                    via the MERN + graphQL stack.  </p>
+                    via the MERN + graphQL stack. </p>
 
                     <a 
                         className="float-right text-3xl mt-3"
@@ -144,8 +144,34 @@ function PortfolioContainer () {
                     </a>
 
                 </div>
-    {/* SOCIAL NETWORK */}
+    {/* SOCIAL NETWORK THOUGHTS*/}
+            <div 
+                    className="block max-w-sm p-6 bg-white border border-white-200 rounded-lg shadow hover:bg-gray-100 dark:bg-white-800 
+                    dark:border-gray-700 dark:hover:bg-gray-700">
+        
+                <h5 id="social-network" className="mb-2 text-center text-2xl font-bold tracking-tight text-blue-500 dark:text-gray"> social-network-thoughts
+                </h5>
+                    <p id="social-network-bio" className="text-center font-normal text-gray-700 dark:text-gray-400">Social network thoughts is a 
+                    simple social media website that allows users to exchange thoughts and comments with other registered users. This was created 
+                    via the MERN + graphQL stack.  </p>
 
+                    <a 
+                        className="float-right text-3xl mt-3"
+                        href="https://github.com/jsong73/social-network-thoughts" 
+                        aria-label="journez-repo" 
+                        target="_blank" 
+                        rel="noopener noreferrer"><SlSocialGithub /> 
+                    </a>
+
+                    <a 
+                        className="float-left text-3xl mt-3"
+                        href="https://social-network-thoughts.herokuapp.com/" 
+                        aria-label="journez-site" 
+                        target="_blank" 
+                        rel="noopener noreferrer"><TbWorld /> 
+                    </a>
+
+                </div>
 
 
 
