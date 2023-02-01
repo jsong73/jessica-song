@@ -39,6 +39,15 @@ html{
     font-family: 'Almarai', sans-serif;
 }
 
+#skills{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+    
+}
+
+#skill-list{
+    font-family: 'Fira Code', monospace;
+}
 
 #projects{
     font-family: 'Epilogue', sans-serif;

@@ -3,7 +3,6 @@ import React from "react";
 import Woman from "../images/coding.png"
 import {SlSocialLinkedin , SlSocialGithub, SlSocialFacebook} from "react-icons/sl"
 import {TbWorld} from "react-icons/tb"
-
 // import Bio from "../images/bio.png"
 
 function PortfolioContainer () {
@@ -89,16 +88,61 @@ function PortfolioContainer () {
         Atlanta, Georgia. I enjoy creating full stack web applications with immersive digital experiences using Javascript(ES6) and other supporting 
         libraries and languages.
         </p>
-        <p id="intro"className="flex text-center justify-center items-center"> My main focus for future projects is to expand my experience with 
-        familiar technologies and new ones. Below are some of my aquired skills and the technologies i've been loving/working with!</p>
+        <p id="intro"className="flex text-center justify-center items-center"> My main focus for future projects is to expand my experience  
+        with new technologies and also with familiar ones. Listed below are some technologies/skills i've accumulated during my coding career. </p>
 
         
-      
+        <div id="skills"className="flex items-center justify-center mb-10 text-gray-400 lg:mt-9 sm: mt-1">
+
+        <ul id="skill-list" className=" text-left sm: text-xs md:text-xl ">
+            <li>
+            ○  MERN (MongoDB, Express, React, Node.js)
+            </li>
+            <li>
+            ○  JavaScript ES6
+            </li>
+            <li>
+            ○   HTML5 
+            </li>
+             <li>
+            ○   CSS3 
+            </li>
+            <li>
+            ○  jQuery 
+            </li>
+            <li>
+            ○   OOP 
+            </li>
+            <li>
+            ○   Bootstrap 
+            </li>
+            <li>
+            ○    SQL 
+            </li>
+            <li>
+            ○  NoSQL 
+            </li>
+            <li>
+            ○   ORM 
+            </li>
+            <li>
+            ○   MVC  
+            </li>
+            <li>
+            ○   Unit Testing
+            </li>
+            <li>
+            ○  GraphQL 
+            </li>
+        </ul>
+        </div>
         {/* <div className="flex text-center justify-center items-center">
             <div className="md: px-9">
                 <img className="  " src={Bio} alt="skills-tech" width="950" id="skills"/>
             </div>
         </div> */}
+
+        
     
         
         </div>
@@ -149,7 +193,8 @@ function PortfolioContainer () {
                     className="block max-w-sm p-6 bg-white border border-white-200 rounded-lg shadow hover:bg-gray-100 dark:bg-white-800 
                     dark:border-gray-700 dark:hover:bg-gray-700">
         
-                <h5 id="social-network" className="mb-2 text-center text-2xl font-bold tracking-tight text-blue-500 dark:text-gray"> social-network-thoughts
+                <h5 id="social-network" className="mb-2 text-center text-2xl font-bold tracking-tight text-blue-500 dark:text-gray"> social-network- 
+                thoughts
                 </h5>
                     <p id="social-network-bio" className="text-center font-normal text-gray-700 dark:text-gray-400">Social network thoughts is a 
                     simple social media website that allows users to exchange thoughts and comments with other registered users. This was created 
@@ -158,7 +203,7 @@ function PortfolioContainer () {
                     <a 
                         className="float-right text-3xl mt-3"
                         href="https://github.com/jsong73/social-network-thoughts" 
-                        aria-label="journez-repo" 
+                        aria-label="social-repo" 
                         target="_blank" 
                         rel="noopener noreferrer"><SlSocialGithub /> 
                     </a>
@@ -166,31 +211,14 @@ function PortfolioContainer () {
                     <a 
                         className="float-left text-3xl mt-3"
                         href="https://social-network-thoughts.herokuapp.com/" 
-                        aria-label="journez-site" 
+                        aria-label="social-site" 
                         target="_blank" 
                         rel="noopener noreferrer"><TbWorld /> 
                     </a>
 
                 </div>
-
-
-
-
-
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 {/* CONTACT */}
