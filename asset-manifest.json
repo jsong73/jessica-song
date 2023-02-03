@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/jessica-song/static/css/main.db558ccd.css",
+    "main.js": "/jessica-song/static/js/main.0e4e6682.js",
+    "static/media/coding.png": "/jessica-song/static/media/coding.bf9bcbb5e2f3d815dc84.png",
+    "index.html": "/jessica-song/index.html",
+    "main.db558ccd.css.map": "/jessica-song/static/css/main.db558ccd.css.map",
+    "main.0e4e6682.js.map": "/jessica-song/static/js/main.0e4e6682.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db558ccd.css",
+    "static/js/main.0e4e6682.js"
+  ]
+}
