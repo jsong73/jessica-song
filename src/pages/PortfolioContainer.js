@@ -94,48 +94,6 @@ function PortfolioContainer () {
         
         <div id="skills"className="flex items-center justify-center mb-10 text-gray-400 ">
 
-        {/* <ul id="skill-list" className="text-left sm: text-md base: text-xs md:text-md sm: py-8 md:text-xl ">
-            <li>
-            ○  MERN
-            </li>
-            <li>
-            ○  JavaScript ES6
-            </li>
-            <li>
-            ○   HTML5 
-            </li>
-             <li>
-            ○   CSS3 
-            </li>
-            <li>
-            ○  jQuery 
-            </li>
-            <li>
-            ○   OOP 
-            </li>
-            <li>
-            ○   Bootstrap 
-            </li>
-            <li>
-            ○    SQL 
-            </li>
-            <li>
-            ○  NoSQL 
-            </li>
-            <li>
-            ○   ORM 
-            </li>
-            <li>
-            ○   MVC  
-            </li>
-            <li>
-            ○   Unit Testing
-            </li>
-            <li>
-            ○  GraphQL 
-            </li>
-        </ul> */}
-
       <img src={Box} width= "600px" className="sm: px-4 sm: "/>
         </div>
 
