@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/jessica-song/static/css/main.db558ccd.css",
-    "main.js": "/jessica-song/static/js/main.0e4e6682.js",
+    "main.css": "/jessica-song/static/css/main.7bb7e2f4.css",
+    "main.js": "/jessica-song/static/js/main.13cb9b53.js",
+    "static/media/box.png": "/jessica-song/static/media/box.0c307de034cf9145289a.png",
     "static/media/coding.png": "/jessica-song/static/media/coding.bf9bcbb5e2f3d815dc84.png",
     "index.html": "/jessica-song/index.html",
-    "main.db558ccd.css.map": "/jessica-song/static/css/main.db558ccd.css.map",
-    "main.0e4e6682.js.map": "/jessica-song/static/js/main.0e4e6682.js.map"
+    "main.7bb7e2f4.css.map": "/jessica-song/static/css/main.7bb7e2f4.css.map",
+    "main.13cb9b53.js.map": "/jessica-song/static/js/main.13cb9b53.js.map"
   },
   "entrypoints": [
-    "static/css/main.db558ccd.css",
-    "static/js/main.0e4e6682.js"
+    "static/css/main.7bb7e2f4.css",
+    "static/js/main.13cb9b53.js"
   ]
 }
