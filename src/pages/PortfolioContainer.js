@@ -93,8 +93,7 @@ function PortfolioContainer () {
 
         
         <div id="skills"className="flex items-center justify-center mb-10 text-gray-400 ">
-
-      <img src={Box} width= "600px" className="sm: px-4 sm: "/>
+             <img src={Box} width= "600px" className="sm: px-4 sm: "/>
         </div>
 
         </div>
