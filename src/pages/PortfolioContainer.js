@@ -3,7 +3,7 @@ import React from "react";
 import Woman from "../images/coding.png"
 import {SlSocialLinkedin , SlSocialGithub, SlSocialFacebook} from "react-icons/sl"
 import {TbWorld} from "react-icons/tb"
-// import Bio from "../images/bio.png"
+import Box from "../images/box.png"
 
 function PortfolioContainer () {
     return(
@@ -83,17 +83,18 @@ function PortfolioContainer () {
         <p id="hello" className="flex mt-12 ml-12 text-blue-500 text-8xl italic h-32 flex-col align-items"> Hello! </p>
 
         {/* about me bio */}
-        <p id="about-bio" className="flex text-center justify-center items-center"> My name is Jessica and i'm a self-taught developer residing in 
+        <p id="about-bio" className="flex  text-center justify-center items-center sm: text-xs md:text-lg"> My name is Jessica and i'm a self-taught developer residing in 
         Atlanta, Georgia. I enjoy creating full stack web applications with immersive digital experiences using Javascript(ES6) and other supporting 
         libraries and languages.
         </p>
-        <p id="intro"className="flex text-center justify-center items-center"> My main focus for future projects is to expand my experience  
-        with new technologies and also with familiar ones. Listed below are some technologies/skills i've accumulated during my coding career. </p>
+        <br></br>
+        <p id="intro"className="flex text-center justify-center items-center sm: text-xs md:text-lg"> My main focus for future projects is to expand my experience  
+        with new technologies and also with familiar ones. Listed below are some of my current skills and the technologies i've been working with/loving! </p>
 
         
         <div id="skills"className="flex items-center justify-center mb-10 text-gray-400 ">
 
-        <ul id="skill-list" className="text-left xs: text-md md: text-md sm: py-3 md:text-xl ">
+        {/* <ul id="skill-list" className="text-left sm: text-md base: text-xs md:text-md sm: py-8 md:text-xl ">
             <li>
             ○  MERN
             </li>
@@ -133,7 +134,9 @@ function PortfolioContainer () {
             <li>
             ○  GraphQL 
             </li>
-        </ul>
+        </ul> */}
+
+      <img src={Box} width= "600px" className="sm: px-4 sm: "/>
         </div>
 
         </div>
