@@ -58,7 +58,7 @@ function PortfolioContainer () {
                     className="text-blue-500 hover:text-white border border-blue-500 hover:bg-blue-500 
                     focus:ring-blue-300 font-medium rounded-lg text-sm px-10 py-2.5 text-center dark:border-blue-500 dark:text-blue-500 
                     dark:hover:text-white dark:hover:bg-blue-500"
-                    href="https://docs.google.com/document/d/1KtbFgZj_dZ6uu4P9ycTLqT_DTbnaB5PlaWuuW88YAuc/edit" 
+                    href="https://docs.google.com/document/d/e/2PACX-1vTI8Uu2jkDNiLhML_jVhPcz--mWcer0Yso2RKNor5P_EvnIhQ8aSQcBSogfSgJ1MriF99O3mK8ZGGnE/pub" 
                     aria-label="resume" 
                     target="_blank" 
                     rel="noopener noreferrer"
@@ -82,7 +82,6 @@ function PortfolioContainer () {
         
         <p id="hello" className="flex mt-12 ml-12 text-blue-500 text-8xl italic h-32 flex-col align-items"> Hello! </p>
 
-
         {/* about me bio */}
         <p id="about-bio" className="flex text-center justify-center items-center"> My name is Jessica and i'm a self-taught developer residing in 
         Atlanta, Georgia. I enjoy creating full stack web applications with immersive digital experiences using Javascript(ES6) and other supporting 
@@ -92,11 +91,11 @@ function PortfolioContainer () {
         with new technologies and also with familiar ones. Listed below are some technologies/skills i've accumulated during my coding career. </p>
 
         
-        <div id="skills"className="flex items-center justify-center mb-10 text-gray-400 lg:mt-9 sm: mt-1">
+        <div id="skills"className="flex items-center justify-center mb-10 text-gray-400 ">
 
-        <ul id="skill-list" className=" text-left sm: text-xs md:text-xl ">
+        <ul id="skill-list" className="text-left xs: text-md md: text-md sm: py-3 md:text-xl ">
             <li>
-            ○  MERN (MongoDB, Express, React, Node.js)
+            ○  MERN
             </li>
             <li>
             ○  JavaScript ES6
@@ -136,34 +135,22 @@ function PortfolioContainer () {
             </li>
         </ul>
         </div>
-        {/* <div className="flex text-center justify-center items-center">
-            <div className="md: px-9">
-                <img className="  " src={Bio} alt="skills-tech" width="950" id="skills"/>
-            </div>
-        </div> */}
 
-        
-    
-        
         </div>
-
-
-
-
 
 {/* PROJECTS */}
 
         <div 
             id="projects" 
             className="snap-start w-screen h-screen"> 
-           <h1 id="projects" className="flex ml-12 mt-5 md:text-5xl sm:text-4xl h-5 border-b-4 border-grey "> 03. PROJECTS  </h1>
+           <h1 id="projects" className="flex ml-12 md:text-5xl sm:text-4xl h-5 border-b-4 border-grey"> 03. PROJECTS  </h1>
    
 
-            <div className="grid md:mb-12 flex-col items-center justify-center mt-5 py-12">
+            <div className="grid md:mb-12 flex-col items-center justify-center mt-3 py-12">
 
                 {/* JOURNEZ */}
                 <div 
-                    className="block max-w-sm p-6  mb-12 bg-white border border-white-200 rounded-lg shadow hover:bg-gray-100 dark:bg-white-800 
+                    className="mr-2 ml-2 block max-w-sm p-6  mb-12 bg-white border border-white-200 rounded-lg shadow hover:bg-gray-100 dark:bg-white-800 
                     dark:border-gray-700 dark:hover:bg-gray-700">
         
                 <h5 id="journez" className="mb-2 text-center text-2xl font-bold tracking-tight text-blue-500 dark:text-gray"> journEZ </h5>
@@ -190,7 +177,7 @@ function PortfolioContainer () {
                 </div>
     {/* SOCIAL NETWORK THOUGHTS*/}
             <div 
-                    className="block max-w-sm p-6 bg-white border border-white-200 rounded-lg shadow hover:bg-gray-100 dark:bg-white-800 
+                    className="mr-2 ml-2 block max-w-sm p-6 bg-white border border-white-200 rounded-lg shadow hover:bg-gray-100 dark:bg-white-800 
                     dark:border-gray-700 dark:hover:bg-gray-700">
         
                 <h5 id="social-network" className="mb-2 text-center text-2xl font-bold tracking-tight text-blue-500 dark:text-gray"> social-network- 
@@ -225,10 +212,9 @@ function PortfolioContainer () {
         <div 
             id="contact" 
             className="snap-start w-screen h-screen"> 
-                <h1 id="contact" className="items-center justify-center text-center ml-12 mt-5 md:text-5xl sm:text-4xl h-5 border-b-4 border- 
-                grey "> 03. CONTACT  </h1>
+                <h1 id="contact" className="flex ml-12 md:text-5xl sm:text-4xl h-5 border-b-4 border-grey"> 03. CONTACT  </h1>
 
-                <h1 id="contact-header" className="py-12 items-center justify-center text-center mt-12 text-blue-500 text-5xl hover:italic"> 
+                <h1 id="contact-header" className="py-10 items-center justify-center text-center mt-12 text-blue-500 text-5xl hover:italic"> 
                 Want to get in touch?</h1>
 
         {/* email button */}
